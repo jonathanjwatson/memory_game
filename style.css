@@ -44,3 +44,12 @@ main{
 img {
 	margin: 40px 8px 40px 0;
 }
+footer{
+	text-transform: uppercase;
+	padding: 0 20px 0 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+	font-weight: 500;
+}

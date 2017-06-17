@@ -20,6 +20,10 @@ a {
     font-weight:600;
     font-size:18px;
     margin: 0 20px 0 20px;
+    border-bottom: 2px solid transparent;
+}
+a:hover {
+  border-color: white;
 }
 
 p {
@@ -44,7 +48,7 @@ main{
 img {
 	margin: 40px 8px 40px 0;
 }
-footer{
+footer {
 	text-transform: uppercase;
 	padding: 0 20px 0 20px;
 	background-color: #0D2C40;
@@ -52,4 +56,26 @@ footer{
 	font-size: 14px;
 	letter-spacing: 0.08em;
 	font-weight: 500;
+}
+.copyright{
+	font-family: Raleway;
+	float: left;
+
+}
+.message{
+	font-family: Raleway;
+	float: right;
+
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+.name{
+	color: #F15B31;
+	font-weight: 700;
 }

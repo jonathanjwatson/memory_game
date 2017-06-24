@@ -32,6 +32,7 @@ function checkForMatch(){
 		}
 		else{
 			alert("Sorry! Try again.");
+			setTimeout( resetBoard, 1000 );
 		};
 	}
 	else{};

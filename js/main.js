@@ -46,7 +46,7 @@ function flipCard(){
 	cardsInPlay.push(cards[cardId].rank);
 	this.setAttribute('src', cards[cardId].cardImage);
 	if (cardsInPlay.length === 2);
-	setTimeout( checkForMatch, 1000 );
+	setTimeout( checkForMatch, 500 );
 };
 
 function createBoard(){

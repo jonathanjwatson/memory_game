@@ -57,6 +57,16 @@ footer {
 	letter-spacing: 0.08em;
 	font-weight: 500;
 }
+button {
+	background-color: #F15B31;
+	font-family: "Raleway", sans-serif;
+	color: white;
+	font-size: 16px;
+	border-radius: 8px;
+	padding: 10px 10px 10px 10px;
+	text-transform: uppercase;
+	font-weight:700;
+}
 .copyright{
 	font-family: Raleway;
 	float: left;

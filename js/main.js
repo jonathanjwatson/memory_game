@@ -64,7 +64,8 @@ function createBoard(){
 function resetBoard(){
 	document.getElementById('game-board').innerHTML = "";
 	createBoard();
-	var cardsInPlay = [];
+	cardsInPlay = [];
+	console.log(cardsInPlay);
 };
 
 createBoard();

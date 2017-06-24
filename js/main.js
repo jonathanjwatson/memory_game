@@ -32,12 +32,11 @@ function checkForMatch(){
 		}
 		else{
 			alert("Sorry! Try again.");
-			setTimeout( resetBoard, 1000 );
+			resetBoard();
 		};
 	}
 	else{};
 };
-
 
 function flipCard(){
 	var cardId = this.getAttribute('data-id');
@@ -49,7 +48,6 @@ function flipCard(){
 	if (cardsInPlay.length === 2);
 	setTimeout( checkForMatch, 1000 );
 };
-
 
 function createBoard(){
 	for (var i = 0; i < cards.length; i++) {

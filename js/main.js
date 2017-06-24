@@ -58,6 +58,13 @@ function createBoard(){
 		document.getElementById('game-board').appendChild(cardElement);
 
   }
-}
+};
+
+function resetBoard(){
+	document.getElementById('game-board').innerHTML = "";
+	createBoard();
+	var cardsInPlay = [];
+};
 
 createBoard();
+
